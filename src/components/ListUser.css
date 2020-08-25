@@ -1,0 +1,67 @@
+.container {
+    
+}
+
+form div {
+    text-align: center;
+    padding:10px ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+h1 {
+  background: rgb(51, 48, 48);
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding: 15px;
+}
+
+.content-table{
+    margin-top: 150px;
+    border-collapse: collapse;
+    margin: 25px auto;
+    min-width: 400px;
+    border-radius: 5px 5px 0px 0px;
+    overflow: hidden;
+}
+
+.content-table thead tr {
+    background: rgb(25, 206, 170);
+    color:white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 20px 20px;
+    font-size: 16px;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid rgb(206, 205, 205);
+}
+
+.content-table tbody tr:nth-of-type(even){
+    background: rgb(230, 228, 228);
+}
+
+.content-table tbody tr:last-of-type{
+    border-bottom: 3px solid rgb(25, 206, 170);
+}
+
+.paginatoin {
+    display: flex;
+    justify-content: center;
+}
+
+.showmodal {
+    /* position: relative; */
+    /* margin-top: 150px; */
+}
